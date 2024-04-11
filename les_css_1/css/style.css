@@ -2,6 +2,20 @@
   margin: 0px;
   padding: 0px;
 }
+
+@font-face {
+  font-family: "Ubuntu_Mono";
+  src: url(../fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf) format("ttf");
+}
+
+h1 {
+  font-size: 2.5em;
+}
+body {
+  font-family: "Ubuntu_Mono", monospace, serif;
+  font-weight: 400;
+  font-style: normal;
+}
 header div {
   color: white;
   width: 100%;
@@ -27,8 +41,10 @@ header div {
 }
 .sec_head p {
   padding: 10% 0%;
+  font-size: 1.2em;
 }
 .sec_head a {
+  font-size: 1.1em;
   padding: 30px 45px;
   background-color: #333;
   border: 1px solid #7b7b7b;
@@ -41,7 +57,101 @@ header div {
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
+.sec_web {
+  height: 15em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sec_web p {
+  padding: 0% 25%;
+}
+.sec_web h2 {
+  margin-bottom: 25px;
+}
+
+.main_section section {
+  text-align: center;
+  width: 20%;
+  height: 36em;
+  background-color: #ffffff;
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main_section img {
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.main_section h2 {
+  padding: 5% 0%;
+}
+.main_section p {
+  padding: 5% 0%;
+}
 .main_section {
   display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #333;
+  padding: 2%;
+}
+
+.asi_need {
+  height: 20em;
+  padding: 0% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.asi_need h2 {
+  padding: 3%;
+}
+.asi_need p {
+  padding: 3%;
+}
+
+.end_main {
+  color: white;
+  width: 100%;
+  height: 25em;
+  display: flex;
+}
+.end_main aside {
+  padding: 0% 10%;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.asi_contact {
+  background-color: rgb(56, 56, 210);
+}
+.asi_about {
+  background-color: rgb(141, 41, 143);
+}
+
+.end_main aside h2 {
+  margin: 5% 0%;
+}
+.end_main aside p {
+  margin: 5% 0%;
+}
+
+footer {
+  width: 100%;
+  height: 5em;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
 }
