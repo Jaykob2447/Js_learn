@@ -22,7 +22,8 @@ header div {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 20% 15%;
+  padding: 0% 15%;
+  height: 35em;
 }
 .sec_head p {
   padding: 10% 0%;
@@ -38,4 +39,9 @@ header div {
   color: #282828;
   background-color: white;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.main_section {
+  display: flex;
+  background-color: #333;
 }
