@@ -1,0 +1,105 @@
+html {
+  font-size: 16px;
+  color: var(--gray);
+  --purple: rgb(185, 18, 236);
+  --gray: #646464;
+}
+
+body {
+  text-align: center;
+  font-family: "serif ", "sans-sherif";
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  background: linear-gradient(190deg in oklab, var(--purple), #e1c0f5);
+}
+
+.card_1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 3rem 2rem;
+  border-radius: 12px;
+  min-width: 20vw;
+  max-width: 70vw;
+}
+
+.border_main_img {
+  display: flex;
+  border-radius: 50%;
+  overflow: hidden;
+  border: solid var(--purple) 3px;
+}
+
+.border_main_img img {
+  width: 150px;
+}
+
+.main_img {
+  border-radius: 50%;
+  border: solid white 5px;
+  margin-top: -88px;
+}
+
+article ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.followers {
+  font-size: 1.2rem;
+  border-top: solid 1px var(--gray);
+  padding: 0.6rem 0;
+}
+
+.followers img {
+  width: 30px;
+}
+.followers li {
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 4px;
+}
+.followers ul :last-child {
+  background-color: var(--gray);
+  color: white;
+  font-weight: 900;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.link_social {
+  padding-top: 1.5rem;
+  margin-bottom: -12px;
+  font-size: 1.2rem;
+}
+
+.link_social a {
+  color: var(--gray);
+}
+.link_social li {
+  padding: 0px 5px;
+}
+
+.link_social li + li {
+  border-left: solid 1px var(--gray);
+}
+
+.location {
+  font-size: 0.8rem;
+  padding: 0.8rem;
+  padding-top: 0.4rem;
+}
