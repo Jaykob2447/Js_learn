@@ -77,7 +77,7 @@ main h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 1rem 0;
+  gap: 1rem 0.5rem;
 }
 
 .house_img img {
@@ -150,4 +150,44 @@ footer {
 .footer_text {
   color: white;
   text-align: center;
+}
+
+@media screen and (max-width: 2700px) {
+  .head_img img {
+    height: 45vh;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .house_img img {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .house_img {
+    justify-content: space-around;
+    gap: 2rem 0.5rem;
+  }
+  .house_img img {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav_list,
+  .head_archit {
+    display: none;
+  }
+  .art_about > div {
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .art_about {
+    gap: 0.5rem 0;
+    padding-top: 1rem;
+  }
+  .house_img {
+    justify-content: center;
+  }
 }
