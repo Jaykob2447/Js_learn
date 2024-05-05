@@ -77,11 +77,11 @@ main h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 1rem 0;
 }
 
 .house_img img {
   width: 350px;
-  padding: 1rem;
 }
 
 .art_about > div {
@@ -89,11 +89,65 @@ main h2 {
   flex-direction: column;
   align-items: stretch;
   width: 24%;
-  padding: 0 1rem;
 }
 .art_about div p:last-of-type {
   height: -webkit-fill-available;
 }
 .art_about img {
   width: 100%;
+}
+
+.art_about div p,
+.art_about div h3 {
+  margin: 0.5rem 0;
+}
+
+.art_about a {
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  background-color: lightgray;
+  text-decoration: none;
+}
+
+.contact p {
+  padding: 1rem;
+}
+
+.div_contact_inp {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.contact_inp {
+  padding: 0.5rem;
+}
+
+.send_massage {
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: white;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+.img_map {
+  padding: 1rem;
+}
+
+.img_map img {
+  object-fit: cover;
+}
+
+footer {
+  padding: 2rem 0;
+  background-color: black;
+}
+
+.footer_text {
+  color: white;
+  text-align: center;
 }
