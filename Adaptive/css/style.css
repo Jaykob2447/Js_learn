@@ -191,3 +191,31 @@ footer {
     justify-content: center;
   }
 }
+
+.nav > a {
+  --bg-size: 400%;
+  --color-one: #8e70db;
+  --color-two: #46bcffcc;
+  --color-three: #f445bdc8;
+  --color-four: #5b18b7c1;
+  --color-five: #ff0e0ab6;
+  background: linear-gradient(
+      90deg,
+      var(--color-three),
+      var(--color-four),
+      var(--color-five),
+      var(--color-four),
+      var(--color-three)
+    )
+    0 0 / var(--bg-size) 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: 8s linear infinite pjcard-text-animation;
+}
+
+@keyframes pjcard-text-animation {
+  to {
+    background-position: var(--bg-size) 0;
+  }
+}
